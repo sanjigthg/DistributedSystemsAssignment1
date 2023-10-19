@@ -48,7 +48,7 @@ public class AssignmentClient {
             String serverAddress = JOptionPane.showInputDialog("Enter server address:");
             String clientUsername = JOptionPane.showInputDialog("Enter your username:");
 
-            socket = new Socket(serverAddress, 1234);
+            socket = new Socket(serverAddress, 3500);
             out = new PrintWriter(socket.getOutputStream(), true);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
