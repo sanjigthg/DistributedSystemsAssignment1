@@ -1,7 +1,16 @@
 /*
- * Assignment #1 - Distributed Systems 
+ * SOFE4790U - Distributed Systems
+ * Assignment #1 - Individual Programming Assignment #1
  * Completed By: Sanjith Gnanabaskaran
  * Student ID: 100635268
+ * 
+ * Application Description: The designed application is designed to allow multiple client connections to open a GUI that will allow
+ * each of the clients connected to request for the date or time, once they've been provided the server address connecting and username.
+ * In each of the client terminals, you can see the other clients requested option as well as the result. The server terminal also outputs
+ * the connected clients with their username and client number, in the order that they are connected.
+ * 
+ * The novel features of this assignment include designing a GUI using JSwing to create the frame interface which allows the connection details
+ * to be entered, as well as selecting the button choice for the requested data. 
  */
 
 import java.io.*;
